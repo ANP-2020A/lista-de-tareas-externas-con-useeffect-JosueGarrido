@@ -37,7 +37,7 @@ const TodoList = () => {
         console.log( 'El componente se monto' );
 
         return () => {
-            console.log( 'El componnte se desmonto' );
+            console.log( 'El componente se desmonto' );
 
         };
     } );
@@ -80,6 +80,7 @@ const TodoList = () => {
                         ?
                         <ul>
                             <li>{ userInfo.name }</li>
+                            <li>{ userInfo.username }</li>
                             <li>{ userInfo.email }</li>
                             <li>{ userInfo.website }</li>
                             <li>{ userInfo.phone }</li>
